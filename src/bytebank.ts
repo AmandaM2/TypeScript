@@ -1,5 +1,7 @@
 let saldo = 1000;
 
+alert("Testando Compilação do TS");
+
 const elementoSaldo = document.querySelector(".saldo-valor .valor") as HTMLElement;
 
 if(elementoSaldo != null){

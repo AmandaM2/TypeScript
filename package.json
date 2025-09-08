@@ -3,6 +3,6 @@
     "typescript": "^5.9.2"
   },
   "scripts": {
-    "ts": "tsc js/bytebank.ts"
+    "ts": "tsc src/bytebank.ts"
   }
 }
