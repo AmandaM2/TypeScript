@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",                // versão do JS que será gerada
+      "module": "commonjs",           // tipo de módulo (pode ser "esnext" se quiser)
+      "rootDir": "./src",             // onde estão os .ts
+      "outDir": "./dist",             // onde salvar os .js
+      "strict": true,                 // ativa verificações de tipo mais rigorosas
+      "esModuleInterop": true         // facilita import/export
+    },
+    "include": ["src"]                 // compila tudo da pasta src
+  }
+  
